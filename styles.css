@@ -1,0 +1,81 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    line-height: 1.5;
+}
+
+.id-section {
+    background-color: #2E2D42;
+    text-align: center;
+}
+
+.page-title {
+    font-family: "Georgia", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: navy blue;
+}
+
+.our-team-section {
+    background-color: #f4f4fd;
+}
+
+h2 {
+    text-align: center;
+}
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: inherit;
+    line-height: 1.5;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    color:#4D5AE5;
+}
+
+.link:hover,
+.link:focus {
+    color: inherit;
+}
+
+.link:active {
+    color: inherit;
+}
+
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.page-footer p,
+.page-footer a {
+    color: white;
+    font-size: 14px;
+    line-height: 0.5;
+    background-color: #2E2F42;
+}
+.button{
+    background-color: #4D5AE5;
+    color: white;
+}

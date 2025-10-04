@@ -8,19 +8,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize/modern-normalize.css/styles.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="logo">
       <a href="#">WEBSTUDIO</a>
-      <nav>
+      <nav class="nav-text">
         <ul>
           <li><a href="#">Studio</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address-text">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+110001111111">+11 (000) 111-11-11</a>
       </address>
@@ -31,7 +35,7 @@
           <h1 class="page-title">
             Effective Solutions<br />for Your Bussiness
           </h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="link">Order Service</button>
         </section>
       </section>
       <section>
@@ -39,37 +43,36 @@
           <li>
             <h3 class="section-title">Strategy</h3>
             <p class="section-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
+              Our goal is to identify the business<br />
+              problem to walk away with the<br />perfect and creative solution.
             </p>
           </li>
           <li>
             <h3 class="section-title">Punctuality</h3>
             <p class="section-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
+              Bring the key message to the<br />brand's audience for the best
+              price<br />within the shortest possible time.
             </p>
           </li>
-
           <li>
             <h3 class="section-title">Diligence</h3>
             <p class="section-text">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
+              Research and confirm brands with<br />the strongest digital
+              growth<br />opportunities and minimize risk.
             </p>
           </li>
-
           <li>
             <h3 class="section-title">Technologies</h3>
             <p class="section-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+              Design practice focused on digital<br />experiences. We bring
+              forth a deep<br />passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section class="our-team-section">
-        <h2 class="section-title">Our Team</h2>
+      <section>
+        <section class="our-team-section">
+        <h2 class="title">Our Team</h2>
         <br />
         <ul>
           <li>
@@ -79,9 +82,9 @@
               height="260"
               alt="Mark Guerrero"
             /><br />
-            <h3>Mark Guerrero</h3>
+            <h3 class="section-title">Mark Guerrero</h3>
             <br />
-            Product Designer
+            <p class="section-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -90,9 +93,9 @@
               height="260"
               alt="Tom Ford"
             /><br />
-            <h3>Tom Ford</h3>
+            <h3 class="section-title">Tom Ford</h3>
             <br />
-            <p>Frontend Developer</p>
+            <p class="section-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -101,9 +104,9 @@
               height="260"
               alt="Camila Garcia"
             /><br />
-            <h3>Camila Garcia</h3>
+            <h3 class="section-title">Camila Garcia</h3>
             <br />
-            <p>Marketing</p>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -112,14 +115,14 @@
               height="260"
               alt="Daniel Wilson"
             /><br />
-            <h3>Daniel Wilson</h3>
+            <h3 class="section-title">Daniel Wilson</h3>
             <br />
-            <p>UI Designer</p>
+            <p class="section-text">UI Designer</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Our Portfolio</h2>
+        <h2 class="title">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -128,8 +131,8 @@
               height="300"
               alt="Banking App"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="section-title">Banking App</h3>
+            <p class="section-text">App</p>
           </li>
           <li>
             <img
@@ -138,8 +141,8 @@
               height="300"
               alt="Cashless Payment"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="section-title">Cashless Payment</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -148,8 +151,8 @@
               height="300"
               alt="Banking App"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="section-title">Meditation App</h3>
+            <p class="section-text">App</p>
           </li>
 
           <li>
@@ -159,8 +162,8 @@
               height="300"
               alt="Taxi Service"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="section-title">Taxi Service</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -169,8 +172,8 @@
               height="300"
               alt="Screen Illustrations"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="section-title">Screen Illustrations</h3>
+            <p class="section-text">Design</p>
           </li>
           <li>
             <img
@@ -179,8 +182,9 @@
               height="300"
               alt="Online Courses"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="section-title">Online Courses</h3>
+
+            <p class="section-text">Marketing</p>
           </li>
         </ul>
       </section>

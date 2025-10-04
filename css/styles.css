@@ -5,7 +5,9 @@
   font-weight: 700;
   line-height: 21px;
 }
-
+.logo a {
+    hover:#4d5ae5
+}
 .nav-text a {
   color: #2e2f42;
   font-size: 16px;
@@ -88,7 +90,7 @@ a {
 
 .link:hover,
 .link:focus {
-  color: inherit;
+  color: #4d5ae5;
 }
 
 .link:active {
